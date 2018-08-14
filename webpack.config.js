@@ -35,7 +35,7 @@ module.exports = {
                     /* inline if smaller than 10 KB, otherwise load as a file */
                     loader: 'url-loader',
                     options: {
-                        limit: 10000
+                        limit: 100000 /* Limit file size */
                     }
                 }]
             },

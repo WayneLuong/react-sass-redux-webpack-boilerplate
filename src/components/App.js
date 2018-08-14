@@ -10,7 +10,7 @@ class App extends Component {
     return <div className="App">{/* one main div only */}
 
             <h1>Hello World!!</h1>;
-
+            <img src={require('../assets/test.jpg')}/>
         </div>;
   }
 }
